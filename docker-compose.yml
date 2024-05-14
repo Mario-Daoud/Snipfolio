@@ -1,0 +1,6 @@
+﻿services:
+  snipfolio:
+    image: snipfolio
+    build:
+      context: .
+      dockerfile: Snipfolio/Dockerfile
